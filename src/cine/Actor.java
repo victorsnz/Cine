@@ -44,5 +44,10 @@ public class Actor {
         this.nombre = nombre;
     }
     
+    @Override
+    public String toString() {
+        return nombre + " " + apellido;
+    }
+    
     
 }
